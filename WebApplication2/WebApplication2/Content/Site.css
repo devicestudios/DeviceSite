@@ -1,0 +1,92 @@
+﻿* { margin: 0; padding: 0; }
+
+img {
+    max-width: 100%;
+    height: auto;   
+}
+
+@font-face {
+font-family: Prosto Sans Bold;
+src: url(../fonts/prosto_sans_bold-webfont.ttf);
+}
+    
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#introduction {
+    column-width: 100%; 
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: -300px;
+    padding-left: 0px;
+    background-image: url(Images/jumbotron2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%
+}
+    
+#introduction header {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: auto;
+    padding-top: 20%;
+    padding-left: auto;
+    padding-bottom: 20%;
+    padding-right: auto;
+    background: url(Images/logo.png) no-repeat;
+    background-position: right;
+    
+}
+
+#introduction header h1{
+    font-family: 'Prosto Sans Bold', sans-serif;
+    color: #f6f4eb;
+    font-size: 9em;
+    margin-left: 20%;
+    text-align: left;
+}
+
+#introduction header p {
+    color: #f6f4eb;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 20%;
+    text-align: left;
+}
+
+
+
+#missionstatement {
+    display: inline;
+    max-width: 100%;
+    margin-bottom: 20%;
+    column-width: 100%;
+    background-color: #f6f5eb;
+}
+
+#missionstatement h1 {
+    color: #9dc3d5;
+    font-size: 5em;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 80px;
+    margin-bottom: 23px;
+    padding-left: 0%;
+    text-align: center;
+}
+
+#missionstatement p {
+    color: #808688;
+    font-size: 1.3em;
+    font-family: 'Hind', sans-serif;
+    padding-left: 0%;
+    margin-bottom: 10px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
